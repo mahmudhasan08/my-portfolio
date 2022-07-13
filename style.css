@@ -189,13 +189,13 @@ body {
 
 .experiance-area .left-column {
     box-shadow: 2px 0px 30px -5px;
-    border-left: 7px solid red;
+    border-left: 6px solid red;
     border-radius: 8px;
 }
 
 .experiance-area .right-column {
     box-shadow: 2px 0px 30px -5px;
-    border-left: 7px solid blue;
+    border-left: 6px solid blue;
     border-radius: 8px;
 }
 
