@@ -14,19 +14,23 @@ body {
     margin: 0 auto;
 }
 
-.banner-section .main-column {
-    display: flex;
-    flex-wrap: wrap;
-}
+
+
+/*===BANNER-SECTION START HERE===*/
 
 .banner-section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
+.banner-section .main-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .banner-section .left-column {
     width: 45%;
-    margin-right: 3%;
+    padding-right: 3%;
 }
 
 .banner-section .right-column {
@@ -38,7 +42,7 @@ body {
 .banner-section .left-column h1 {
     font-size: 50px;
     font-weight: 500;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .banner-section .orange {
@@ -48,18 +52,19 @@ body {
 .banner-section .left-column h3 {
     font-size: 30px;
     font-weight: 500;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .banner-section .left-column p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     margin-top: 20px;
     padding-bottom: 15px;
+    color: dimgray;
 }
 
-.banner-section .btn {
+.btn {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
@@ -70,4 +75,59 @@ body {
 
 .banner-section .right-column img {
     width: 100%;
+}
+
+
+
+/*===DREAM BIG SECTION START HERE===*/
+
+.dream-big-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-big-section .main-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dream-big-section .left-column {
+    width: 45%;
+    padding-right: 3%;
+}
+
+.dream-big-section .right-column {
+    width: 45%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.dream-big-section .left-column img {
+    width: 100%;
+}
+
+.dream-big-section .right-column h2 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 45px
+}
+
+.dream-big-section .right-column h3 {
+    font-size: px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.dream-big-section .right-column p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    color: dimgray;
+}
+
+.dream-big-section .container {
+    margin-top: 80px;
 }
