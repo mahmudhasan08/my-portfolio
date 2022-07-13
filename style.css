@@ -200,5 +200,13 @@ body {
 }
 
 .experiance-area .container {
-    padding-bottom: 80px;
+    padding-bottom: 150px;
+}
+
+.footer-section p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: dimgray;
+    padding-bottom: 30px;
 }
