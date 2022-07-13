@@ -1,3 +1,73 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1350px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+}
+
+.banner-section .main-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.banner-section .left-column {
+    width: 45%;
+    margin-right: 3%;
+}
+
+.banner-section .right-column {
+    width: 45%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.banner-section .left-column h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.banner-section .orange {
+    color: orange;
+}
+
+.banner-section .left-column h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.banner-section .left-column p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.banner-section .btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.banner-section .right-column img {
+    width: 100%;
 }
